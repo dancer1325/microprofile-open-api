@@ -19,17 +19,22 @@
 
 = Eclipse MicroProfile OpenAPI
 
-image:https://github.com/eclipse/microprofile-open-api/workflows/Build/badge.svg?branch=master[link=https://github.com/eclipse/microprofile-open-api/actions]
+* goal
+    ** link:++https://spec.openapis.org/oas/v3.1.0.html++[OpenAPI v3.1 specification's] Java API
 
-This MicroProfile specification aims at providing a unified Java API for the link:++https://spec.openapis.org/oas/v3.1.0.html++[OpenAPI v3.1 specification],
-that all application developers can use to expose their API documentation.
+* uses
+    ** ALL application developers / want to expose their API documentation
 
-* The link:++https://github.com/eclipse/microprofile-open-api/tree/master/api/src/main/java/org/eclipse/microprofile/openapi++[spec APIs] are composed of annotations, models, and programming interfaces.
-* The link:++https://github.com/eclipse/microprofile-open-api/blob/master/spec/src/main/asciidoc/microprofile-openapi-spec.asciidoc++[spec documentation] outlines the rules and boundaries of the spec.
-* To chat or ask questions about the spec, join the discussion on Gitter: image:https://badges.gitter.im/eclipse/microprofile-open-api.svg[link=https://gitter.im/eclipse/microprofile-open-api]
-* For announcements, visit the link:++https://groups.google.com/forum/#!forum/microprofile++[MicroProfile Google Group].
+* link:src/main/java/org/eclipse/microprofile/openapi[spec APIs]
+    ** == annotations + models + programming interfaces
+* link:spec/src/main/asciidoc/microprofile-openapi-spec.asciidoc++[spec documentation]
+    ** == spec's rules & boundaries
 * Extended examples that supplement the spec can be found link:++https://github.com/eclipse/microprofile-open-api/wiki++[here].
-* Eclipse release information and further logistics about the project can be found link:++https://wiki.eclipse.org/MicroProfile/OpenAPI++[here].
+
+== Communication
+* image:https://badges.gitter.im/eclipse/microprofile-open-api.svg[link=https://gitter.im/eclipse/microprofile-open-api]
+* link:++https://groups.google.com/forum/#!forum/microprofile++[MicroProfile Google Group]
+
 
 == How to contribute
 
